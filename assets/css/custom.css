@@ -1,0 +1,43 @@
+body{
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0px 0px 10px #f7f7f7;
+}
+
+.carousel-cell img{
+  border-radius: 5px;
+}
+
+.carousel-cell {
+  width: 66%;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.garis{
+  border: 5px solid #fafafc;
+}
+
+.carousel-cell1 {
+  width: 100px;
+  margin-right: 10px;
+  padding: 4px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+.carousel-cell1.is-selected {
+}
+
+.btn-pesan {
+  color: #fff;
+  background-color: #62F40C;
+  border-color: #62F40C;
+  padding: 4px;
+  border-radius: 6px;
+}
+.btn-pesan:hover {
+  color: #fff;
+  background-color: #2EC20A;
+  border-color: #2EC20A;
+}
